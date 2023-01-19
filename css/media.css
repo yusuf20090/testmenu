@@ -1,0 +1,13 @@
+@media (max-width:500px){
+    body{
+        font-size: 8px;
+    }
+    .header-main h1{
+        font-size: 7em;
+
+    }
+    .header-main p{
+        font-size: 3em;
+    
+    }
+}

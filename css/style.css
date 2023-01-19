@@ -1,0 +1,185 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+body {
+    font-size: 10px;
+    --colorMain: #fff;
+    --black: #000;
+    overflow-x: hidden;
+}
+
+.header_index {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/menuMeinBlack.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+
+.header_index h1, .header_main h1 {
+    font-size: 8em;
+    color: var(--colorMain);
+    font-weight: bold;
+    text-align: center;
+}
+
+.header_index a {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--colorMain);
+    display: flex;
+    color: var(--black);
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+}
+.header_index div{
+    display: flex;
+    justify-content: center;
+    gap: 1.75em;
+    margin-top: 3em;
+}
+.header_index p{
+    color: var(--colorMain);
+    font-size: 4em;
+
+}
+
+
+
+
+.logo{
+    width: 200px;
+   
+    
+}
+nav a{
+margin: auto;
+
+}
+nav{
+    text-align: center;
+    background-color: var(--black);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.header_main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/menuMein\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-attachment: fixed;
+}
+.menu-slider {
+    width: 100vw;
+    background-color: var(--black);
+}
+.menu-slider a{
+    font-size: 3em;
+    color: var(--colorMain);
+}
