@@ -111,7 +111,8 @@ body {
 }
 
 
-.header_index h1, .header_main h1 {
+.header_index h1,
+.header_main h1 {
     font-size: 8em;
     color: var(--colorMain);
     font-weight: bold;
@@ -129,13 +130,15 @@ body {
     justify-content: center;
     align-items: center;
 }
-.header_index div{
+
+.header_index div {
     display: flex;
     justify-content: center;
     gap: 1.75em;
     margin-top: 3em;
 }
-.header_index p{
+
+.header_index p {
     color: var(--colorMain);
     font-size: 4em;
 
@@ -144,24 +147,28 @@ body {
 
 
 
-.logo{
+.logo {
     width: 200px;
-   
-    
-}
-nav a{
-margin: auto;
+
 
 }
-nav{
+
+nav a {
+    margin: auto;
+
+}
+
+nav {
     text-align: center;
     background-color: var(--black);
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
+    z-index: 10;
 }
-.header_main{
+
+.header_main {
     height: 100vh;
     width: 100%;
     background-image: url(../img/menuMein\ 2.png);
@@ -175,11 +182,60 @@ nav{
     gap: 2em;
     background-attachment: fixed;
 }
+
 .menu-slider {
     width: 100vw;
     background-color: var(--black);
+    padding: 8px 16px;
+    position: sticky;
+    top: 88.23px;
+    left: 0;
+    width: 100%;
 }
-.menu-slider a{
+
+.menu-slider a {
     font-size: 3em;
     color: var(--colorMain);
+}
+
+.menu-slider .swiper-slide {
+    display: inline-block;
+    width: max-content !important;
+}
+
+main {
+    height: 3000px;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.menu__item {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    background-color: #000;
+    color: white;
+    gap: 1em;
+}
+
+.menu__item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+.menu__item h3{
+    font-size: 2em;
+    
+}
+.menu__item p{
+    font-size: 1.4em;
+}
+.menu__item span{
+    font-size: 1.4em;
+}
+.menu__info{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
