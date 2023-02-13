@@ -239,3 +239,6 @@ main {
     flex-direction: column;
     gap: 1em;
 }
+.simple{
+    display: none;
+}
