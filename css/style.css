@@ -193,19 +193,21 @@ nav {
     width: 100%;
 }
 
-.menu-slider a {
+.menu-slider button {
     font-size: 3em;
     color: var(--colorMain);
+    background-color: transparent;
 }
 
 .menu-slider .swiper-slide {
-    display: inline-block;
-    width: max-content !important;
+
+    
+
 }
 
 main {
     height: 3000px;
-    background-color: gainsboro;
+    background-color: rgb(0, 0, 0);
     position: relative;
 }
 
@@ -216,6 +218,7 @@ main {
     background-color: #000;
     color: white;
     gap: 1em;
+    box-shadow: 0 0 1em hsla(0, 0%, 100%, 0.566);
 }
 
 .menu__item img {
@@ -223,6 +226,7 @@ main {
     height: 150px;
     object-fit: cover;
     object-position: center;
+    min-width: 150px;
 }
 .menu__item h3{
     font-size: 2em;
@@ -238,7 +242,15 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    padding: 1em;
 }
 .simple{
     display: none;
+}
+.menu__list{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em;
 }
