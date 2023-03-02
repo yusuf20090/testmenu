@@ -1,21 +1,21 @@
 const swiper = new Swiper('.menu-slider', {
   speed: 400,
-  spaceBetween: 30,
+  spaceBetween: 16,
   breakpoints: {
     // when window width is >= 320px
     320: {
       slidesPerView: 1.4,
-      spaceBetween: 20
+      spaceBetween: 16
     },
     // when window width is >= 480px
     480: {
       slidesPerView: 2.3,
-      spaceBetween: 30
+      spaceBetween: 16
     },
     // when window width is >= 640px
     640: {
       slidesPerView: 2.6,
-      spaceBetween: 30
+      spaceBetween: 16
     }
   }
 });
