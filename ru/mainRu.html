@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Меню</title>
+    <title>Menu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,23 +17,46 @@
 
 <body>
     <nav>
-        <img src="" alt="logo">
+        <a href="">
+            <img class="logo" src="../img/logo.png" alt="logo">
+        </a>
     </nav>
-    <img src="" alt="ana resim">
-    <div class="menu-slider swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <a href="">Основные блюда</a>
-            </div>
-            <div class="swiper-slide">
-                <a href="">Закуски</a>
-            </div>
-            <div class="swiper-slide">
-                <a href="">Напитки</a>
+    <header class="header_main">
+        <h1>
+            МЕНЮ
+        </h1>
+    </header>
+    <main>
+        <div class="menu-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <button id="Anayemek">основные блюда</button>
+                </div>
+                <div class="swiper-slide">
+                    <button id="aperatif">Закуски</button>
+                </div>
+                <div class="swiper-slide">
+                    <button id="İçecekler">Напитки</button>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="menu__list">
+            <div class="menu__item simple">
+                <img src="" alt="">
+                <div class="menu__info">
+                    <h3>
+
+                    </h3>
+                    <p>
+
+                    </p>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="../js/swiper.js"></script>
+    <script src="../js/scriptRu.js"></script>
 </body>
 
 </html>
